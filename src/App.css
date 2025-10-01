@@ -1,0 +1,16 @@
+/* App.css */
+@keyframes pulseAlert {
+  0%,
+  100% {
+    transform: scale(1);
+    color: #dc2626; /* red-600 */
+  }
+  50% {
+    transform: scale(1.05);
+    color: #b91c1c; /* red-700 */
+  }
+}
+
+.animate-bounce {
+  animation: pulseAlert 1.2s infinite;
+}
